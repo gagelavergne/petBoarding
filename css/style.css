@@ -22,11 +22,120 @@
 	margin: 20px 
 }
 
+/*#accomodationsImg {
+	height: 300px;
+	width: 300px;
+	
+
+}*/
 
 
 
+#tableFix {
+	float: right;
+}
+
+#about {
+  padding-top: 100px;
+}
+
+.about-image-thumb img {
+  border-radius: 5px;
+  margin-bottom: 22px;
+  align-content: left;
+  width: 100%;
+  z-index: 1000;
+  margin: 20px;
+}
 
 
+
+.about-thumb {
+  padding: 32px 12px;
+}
+
+.about-thumb p {
+  padding: 2px 0;
+}
+
+#tableFix {
+
+	color: #626567;
+}
+
+
+/* Testimonials */
+
+.testimonial{
+    padding: 20px 20px 20px 90px;
+    margin: 10px 20px 50px 55px;
+    border-left: 2px solid #ae483a;
+    position: relative;
+}
+.testimonial:after{
+    content: "";
+    border-bottom: 25px solid #ae483a;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+    bottom: -24px;
+    left: -26px;
+}
+.testimonial .pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ae483a;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: -50px;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .title{
+    font-size: 22px;
+    font-weight: 600;
+    color: #71334a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 7px 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 15px;
+    color: #ae483a;
+    text-transform: capitalize;
+}
+.testimonial .description{
+    font-size: 15px;
+    color: #626567;
+    line-height: 28px;
+}
+.owl-theme .owl-controls{ margin-top: 10px; }
+.owl-theme .owl-controls .owl-page span{
+    width: 35px;
+    height: 15px;
+    border-radius: 0;
+    background: #71334a;
+    opacity: 0.8;
+    transition: all 0.3s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ae483a;
+}
+@media only screen and (max-width: 479px){
+    .testimonial{
+        padding: 20px 0 20px 60px;
+        margin: 10px 20px 50px 50px;
+    }
+    .testimonial .title{ font-size: 20px; }
+}
 
 
 
@@ -496,8 +605,8 @@ body {
 }
 
 #slide-4 {
-	background-color: #34495e;
-	color: #e4e6e5;
+	background-color: white;
+	color: #626567;
 	padding-top: 90px;
 }
 
@@ -508,8 +617,8 @@ body {
 
 
 #slide-5 {
-	background-color: #f39c12;
-	color: #e4e6e5;
+	background-color: #E3DBD1;
+	color: #626567;
 	padding-top: 90px;
 }
 
